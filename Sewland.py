@@ -69,7 +69,7 @@ def war(enemy):
         print(f"Всего у тебя {hero.experience} опыта")
 
 def lvl2():
-    print(f"{hero.name} ты отлично справился с начальным истыпаем 🥳 и поэтому ты поподаешь в город SEWLAND")
+    print(f"{hero.name} ты отлично справился с начальным испытанием и поэтому ты поподаешь в город SEWLAND")
     while True:
         print("✨" * 30)
         print("✨"," "*15,"Основное меню"," "*24,"✨")
@@ -97,7 +97,7 @@ while True:
         enemy = Evil(chosen_name, health)
         war(enemy)
     elif num =="3":
-        print(f"До встречи {hero.name}✋!")
+        print(f"До встречи {hero.name}!")
         break
 
     elif num =="2":
